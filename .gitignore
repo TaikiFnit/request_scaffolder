@@ -1,1 +1,4 @@
 serviceAccount.json
+firebase.config.js
+node_modules
+files/*
