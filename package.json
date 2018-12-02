@@ -11,6 +11,7 @@
   "dependencies": {
     "@google-cloud/storage": "^2.3.1",
     "axios": "^0.18.0",
+    "express": "^4.16.4",
     "firebase": "^5.6.0",
     "firebase-admin": "^6.3.0"
   }

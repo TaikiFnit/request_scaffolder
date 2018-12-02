@@ -37,3 +37,9 @@ urlWatcherRef.on('child_added', async snapshot => {
         urlWatcherRef.child(key).child('file/name').set(key);
     }
 });
+
+const express = require('express');
+const app = express();
+const port = 3000;
+app.use(express.static('public'));
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
